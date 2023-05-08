@@ -928,12 +928,9 @@ ul{
 	list-style: none;
 }
 .footer{
-    position: relative;
 	background-color: #eee;
     padding: var(--main-padding-section);
     height: 50vh;
-    z-index: -1;
-    
 }
 .footer-col{
     width: 25%;
@@ -959,6 +956,22 @@ ul{
 }
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
+}
+
+.footer .footer-col .heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #542E82;
+}
+
+.footer .footer-col .cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 
 .footer-col ul li {
